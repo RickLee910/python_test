@@ -1,5 +1,5 @@
-from urllib import request
-response = request.urlopen('http://flaglee.cn/')
-fi = open("project1.txt", 'w')
-page = fi.write(str(response.read()))
-fi.close()
+l = [1,2,3]
+l1 = [4,5,6]
+for i in range(1, 3):
+    if i == 2:
+        print('ooops!')
